@@ -1,7 +1,7 @@
 import Vue from 'vue'
 //.Vueファイル(一般的に使えないがVueCLIの中だから使える)をインポートしてる(コンポーネントのオブジェクトをインポートしている)
 import App from './App.vue'
-import LikeNumber from "./LikeNumber.vue"
+import LikeNumber from "./components/LikeNumber.vue"
 
 Vue.config.productionTip = false
 //グローバル登録

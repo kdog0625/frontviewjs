@@ -1,17 +1,5 @@
 <template>
-  <p>いいね({{number}})</p>
+<!--以下のように記載することで全てのところでLikeNumberが使える。-->
+  <LikeNumber></LikeNumber>
 </template>
 
-<script>
-export default{
-  data:function(){
-    return{
-      number:5
-    }
-  }
-}
-</script>
-
-<style>
-
-</style>

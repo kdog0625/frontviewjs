@@ -1,3 +1,5 @@
+#.gitignoreはgit用のファイル
+
 .DS_Store
 node_modules
 /dist

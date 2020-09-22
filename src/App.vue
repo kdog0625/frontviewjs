@@ -1,5 +1,17 @@
 <template>
-<!--以下のように記載することで全てのところでLikeNumberが使える。-->
+  <div>
+  <LikeHeader></LikeHeader>
   <LikeNumber></LikeNumber>
+  </div>
 </template>
 
+<script>
+//ローカル登録
+import LikeHeader from "./LikeHeader.vue";
+
+export default {
+    components:{
+      LikeHeader
+    }
+}
+</script>

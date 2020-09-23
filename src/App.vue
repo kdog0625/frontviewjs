@@ -1,6 +1,5 @@
 <template>
   <div>
-  <!--ケバブケース-->
   <like-header></like-header>
   <LikeNumber></LikeNumber>
   </div>
@@ -11,11 +10,8 @@
 import LikeHeader from "./components/LikeHeader.vue";
 
 export default {
-  //パスカラーケース
     components:{
-      LikeHeader:LikeHeader
-      //キャメルケース
-    // likeHeader:LikeHeader
+      LikeHeader
     }
 };
 </script>

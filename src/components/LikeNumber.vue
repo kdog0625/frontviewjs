@@ -21,3 +21,10 @@ export default {
 };
 </script>
 
+<!--scopedによって自身のコンポーネント内のみに適用できる-->
+<style scoped>
+  div{
+    border:1px solid red;
+  }
+
+</style>

@@ -8,11 +8,8 @@
 
 <script>
 export default {
-  data(){
-    return {
-      number:5
-    };
-  },
+  //propsはプロパティのこと。
+ props:["number"],
   methods:{
     increment(){
       this.number+=1;

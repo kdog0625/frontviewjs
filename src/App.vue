@@ -1,8 +1,8 @@
 <template>
   <div>
   <like-header></like-header>
-  <LikeNumber v-bind:number="number"></LikeNumber>
-  <LikeNumber :number="number"></LikeNumber>
+  <LikeNumber :totalNumber="number"></LikeNumber>
+  <LikeNumber :total-number="number"></LikeNumber>
   </div>
 </template>
 

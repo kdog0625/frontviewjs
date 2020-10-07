@@ -10,6 +10,12 @@
 export default {
   //propsはプロパティのこと。
  props:["totalNumber"],
+ //propsはスクリプトの中でも使用可能
+ computed:{
+   halfNumber(){
+     return this.totalNumber / 2;
+   }
+ },
   methods:{
     increment(){
       this.number+=1;

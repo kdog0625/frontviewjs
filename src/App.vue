@@ -1,7 +1,7 @@
 <template>
   <div>
   <like-header></like-header>
-  <LikeNumber :totalNumber="number"></LikeNumber>
+  <LikeNumber></LikeNumber>
   <LikeNumber :total-number="number"></LikeNumber>
   </div>
 </template>

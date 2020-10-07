@@ -8,8 +8,14 @@
 
 <script>
 export default {
-  //propsはプロパティのこと。
- props:["totalNumber"],
+  //propsで型を指定。文字列だとエラーが出る。なのでバリデーションを設定する。
+ props:{
+   //型だけでなくオブジェクトも指定できる。
+  totalNumber: {
+    type:Number,
+    default:10
+  }
+ },
  //propsはスクリプトの中でも使用可能
  computed:{
    halfNumber(){
